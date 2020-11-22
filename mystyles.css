@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(236, 245, 248)
+}h1
+{
+    color: black;
+    
+}
+h1{
+  background-color: palevioletred;
+} 
+ h3{
+  font-family: Arial, Helvetica, sans-serif ;
+  line-height: 25px;
+  border:2px rgb(20, 15, 20) ;
+}
+h1{
+    font-style: italic;
+}
+nav ul li a:hover{
+    color: wheat;
+}
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(212, 122, 197);
+  padding: 20px 10px;
+  height: 20px;
+ 
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  position: relative;
+  font-size: 15px;
+  margin: 0 15px;
+  text-decoration:plum;
+  color: black;
+  font-weight: 400;
+  padding: 17px 0;
+  transition: 0,5;
+}
+.gambar-tengah{
+  height: 800px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmMAoa9ZOhXF4qem51gspfLZkN7sAkYdLTrA&usqp=CAU");
+  width: 500px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: -webkit-center;
+  margin:200px 0 0 400px
+}
+table, th td{
+  border: 3px hotpink solid;
+}
+
+table{
+  border-collapse: collapse;
+}
+table,th,td{
+  border: 2px solid hotpink;
+  padding:0 5px;
+  text-align: center;
+  color: #111314;
+}
+footer {
+  padding: 21px 0;
+  background-color: #060707;
+  text-align: center;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+footer p{
+  font-size: 16px;
+  color: rgb(223, 117, 188);
+  font-family: "Poppins-Medium";
+  float: left;
+}
+.gambar-tengah{
+  float: none;
+}
+
+
+
